@@ -1,0 +1,28 @@
+{
+  "name": "tradie-template-react",
+  "main": "./dist/index.js",
+  "version": "0.1.0",
+  "description": "A React template for tradie.",
+  "keywords": [
+    "tradie",
+    "tradie-template",
+    "react",
+    "redux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jameslnewell/tradie-template-react.git"
+  },
+  "peerDependencies": {
+    "tradie": ">=0.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0"
+  },
+  "scripts": {
+    "build": "babel ./index.js -d ./dist",
+    "prepublish": "npm run build"
+  },
+  "license": "MIT"
+}
