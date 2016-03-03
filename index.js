@@ -1,9 +1,16 @@
 import path from 'path';
 
-export default function(fs, config) {
+const files = path.join(__dirname, '..', 'files');
+
+export default function(fs) {
   fs.copy(
-    path.join(__dirname, '..', 'files', '**', '{*,.*}'), //take compiled path into account
+    path.join(files, '**', '{*,.*}'), //take compiled path into account
     '.',
-    {globOptions: {ignore: '.DS_Store'}}
+    {globOptions: {ignore: path.join(files, 'package.json')}}
   );
+  fs.copyTpl(
+    path.join(files, 'package.json'),
+    'package.json',
+    {name: path.basename(process.cwd())}
+  )
 }

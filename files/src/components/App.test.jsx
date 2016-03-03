@@ -1,15 +1,13 @@
-//TODO: add shallow rendering and querying
+import React from 'react';
+import App from './App.jsx';
 
-describe('App', function() {
+describe('App', () => {
 
-  describe('render()', function() {
+  describe('render()', () => {
 
-    it('should render the title', function() {
-      expect(true).to.be.true;
-    });
-
-    it('should render the title', function() {
-      expect(false).to.be.false;
+    it('should render text', () => {
+      const element = render(<App/>).element;
+      expect($(element).hasText('Hello World!')).to.be.true;
     });
 
   });
