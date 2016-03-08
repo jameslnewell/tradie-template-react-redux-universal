@@ -14,7 +14,7 @@
     "url": "git@github.com:jameslnewell/tradie-template-react.git"
   },
   "peerDependencies": {
-    "tradie": ">=0.4.0"
+    "tradie": ">=0.6.0"
   },
   "devDependencies": {
     "babel-cli": "^6.5.1",
