@@ -20,6 +20,7 @@ Creates a `Hello World!` app using `react`, written in `ES2015` and `JSX`.
   - `chai`'s `expect` global for assertions
   - `render()` global for shallow rendering of `react` components
   - `$` global for assertions on `react` virtual-dom trees
+- [static server](https://www.npmjs.com/package/tradie-plugin-serve)
 - [livereloading](https://www.npmjs.com/package/tradie-plugin-livereload)
 
 ## Installation
