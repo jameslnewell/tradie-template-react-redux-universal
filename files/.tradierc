@@ -5,5 +5,5 @@
     "transforms": ["babelify"],
     "extensions": [".js", ".jsx"]
   },
-  "plugins": ["livereload"]
+  "plugins": [["copy", {"files": ["*.html"]}], "livereload", "serve"]
 }

@@ -2,6 +2,7 @@
   "name": "<%= name %>",
   "private": true,
   "dependencies": {
+    "normalize.css": "^3.0.3",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   },
@@ -15,8 +16,10 @@
     "react-addons-test-utils": "^0.14.7",
     "react-testutils-query": "^0.5.1",
     "react-testutils-render": "^0.1.2",
-    "tradie": "^0.5.1",
-    "tradie-plugin-livereload": "^0.1.1"
+    "tradie": "^0.6.0",
+    "tradie-plugin-copy": "^0.1.1",
+    "tradie-plugin-livereload": "^0.1.2",
+    "tradie-plugin-serve": "^0.1.2"
   },
   "scripts": {
     "build": "tradie build",

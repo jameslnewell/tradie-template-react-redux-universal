@@ -1,7 +1,7 @@
 {
   "name": "tradie-template-react",
   "main": "./dist/index.js",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A React template for tradie.",
   "keywords": [
     "tradie",
