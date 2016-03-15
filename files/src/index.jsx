@@ -1,9 +1,9 @@
-import React from 'react';
-import {render} from 'react-dom';
-import App from './components/App';
+import rechannel from 'rechannel';
+import routes from './routes';
+import reducer from './reducer';
 
-render(
-  <App/>,
-  document.querySelector('#app')
-);
+rechannel({
+  routes,
+  reducer
+});
 

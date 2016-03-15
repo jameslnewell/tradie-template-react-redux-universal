@@ -1,9 +1,14 @@
 import React from 'react';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <h1>Hello World!</h1>
-    );
-  }
+export default function App(props) {
+  const {children} = props;
+  return (
+    <div>
+      {children}
+    </div>
+  );
 }
+
+App.propTypes = {
+  children: React.PropTypes.node.isRequired
+};

@@ -5,9 +5,9 @@ describe('App', () => {
 
   describe('render()', () => {
 
-    it('should render text', () => {
-      const element = render(<App/>).element;
-      expect($(element).hasText('Hello World!')).to.be.true;
+    it('should render some children', () => {
+      const element = render(<App children={<p>Welcome to earth!</p>}/>).element;
+      expect($(element).find('p').hasText('Welcome to earth!')).to.be.true;
     });
 
   });

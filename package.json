@@ -1,8 +1,8 @@
 {
-  "name": "tradie-template-react",
+  "name": "tradie-template-react-redux",
   "main": "./dist/index.js",
-  "version": "0.4.1",
-  "description": "A React template for tradie.",
+  "version": "0.1.0",
+  "description": "A React+Redux template for tradie.",
   "keywords": [
     "tradie",
     "tradie-template",
