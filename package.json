@@ -1,5 +1,5 @@
 {
-  "name": "tradie-template-react-redux",
+  "name": "@nib/tradie-template-react-redux",
   "main": "./dist/index.js",
   "version": "0.1.0",
   "description": "A React+Redux template for tradie.",
