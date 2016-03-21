@@ -8,8 +8,7 @@
     "tradie-template",
     "react",
     "react-router",
-    "redux",
-    "universal"
+    "redux"
   ],
   "repository": {
     "type": "git",

@@ -1,7 +1,10 @@
 {
   "scripts": {
     "bundles": ["client.js"],
-    "libraries": ["react", "react-dom"],
+    "libraries": [
+      "react", "react-dom", "react-redux", "react-router", "react-router-redux",
+      "rechannel", "redial", "redux"
+    ],
     "transforms": ["babelify"],
     "extensions": [".js", ".jsx"]
   },
