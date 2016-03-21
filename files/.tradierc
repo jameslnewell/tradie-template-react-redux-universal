@@ -8,5 +8,5 @@
     "transforms": ["babelify"],
     "extensions": [".js", ".jsx"]
   },
-  "plugins": [["copy", {"files": ["*.html"]}], "livereload"]
+  "plugins": ["livereload"]
 }

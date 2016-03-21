@@ -27,7 +27,6 @@
     "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0",
     "tradie": "^0.6.0",
-    "tradie-plugin-copy": "^0.1.1",
     "tradie-plugin-livereload": "^0.1.2"
   },
   "scripts": {
