@@ -1,12 +1,15 @@
 {
-  "name": "tradie-template-react-redux",
+  "name": "tradie-template-react-redux-universal",
   "main": "./dist/index.js",
   "version": "0.1.0",
-  "description": "A React+Redux template for tradie.",
+  "description": "A Universal React+Redux template for tradie.",
   "keywords": [
     "tradie",
     "tradie-template",
-    "react"
+    "react",
+    "react-router",
+    "redux",
+    "universal"
   ],
   "repository": {
     "type": "git",

@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "bundles": ["index.jsx"],
+    "bundles": ["client.js"],
     "libraries": ["react", "react-dom"],
     "transforms": ["babelify"],
     "extensions": [".js", ".jsx"]
   },
-  "plugins": [["copy", {"files": ["*.html"]}], "livereload", "serve"]
+  "plugins": [["copy", {"files": ["*.html"]}], "livereload"]
 }

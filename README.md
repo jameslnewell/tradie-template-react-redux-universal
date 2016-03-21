@@ -1,8 +1,8 @@
 # tradie-template-react-redux
 
-A React+Redux template for tradie.
+A Universal React+Redux template for tradie.
 
-Creates a `Hello World!` app using `react`, `redux`, `react-router` and `redial` written in `ES2015` and `JSX`.
+Creates a UniversalJS `Hello World!` app using `react`, `redux`, `react-router` and `redial` written in `ES2015` and `JSX`.
 
 **Features:**
 
@@ -21,15 +21,15 @@ Creates a `Hello World!` app using `react`, `redux`, `react-router` and `redial`
   - `sinon` and `sinon-chai` for assertions on spies and stubs
   - `render()` global for shallow rendering of `react` components
   - `$` global for assertions on `react` virtual-dom trees
-- [static server](https://www.npmjs.com/package/tradie-plugin-serve)
+- rendered on the server
 - [livereloading](https://www.npmjs.com/package/tradie-plugin-livereload)
 
 ## Installation
 
-    npm install -g tradie tradie-template-react-redux
+    npm install -g tradie tradie-template-react-redux-universal
 
 ## Usage
 
     mkdir my-react-project && cd my-react-project
-    tradie init --force --template=react-redux
+    tradie init --force --template=react-redux-universal
     npm install
