@@ -1,4 +1,4 @@
-# tradie-template-react-redux
+# tradie-template-react-redux-universal
 
 A Universal React+Redux template for tradie.
 
