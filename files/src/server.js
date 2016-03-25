@@ -1,9 +1,12 @@
+import support from 'source-map-support';
 import express from 'express';
 import rechannel, {createHtml} from 'rechannel';
 import routes from './routes';
 import reducer from './reducer';
 
 const PORT = process.env.PORT || 5000;
+
+support.install();
 
 const app = express()
   .use(express.static(`${__dirname}/../dist`))
@@ -15,7 +18,7 @@ const app = express()
       script: ['vendor.js', 'client.js']
     })
   }))
-  ;
+;
 
 const server = app.listen(PORT, err => {
   if (err) return console.error(err); //eslint-disable-line no-console

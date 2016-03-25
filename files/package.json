@@ -12,7 +12,8 @@
     "react-router-redux": "^4.0.0",
     "rechannel": "^0.4.1",
     "redial": "^0.4.1",
-    "redux": "^3.3.1"
+    "redux": "^3.3.1",
+    "source-map-support": "^0.4.0"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.5.0",
@@ -26,12 +27,12 @@
     "react-testutils-render": "^0.1.2",
     "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0",
-    "tradie": "^0.6.0",
+    "tradie": "^0.7.0",
     "tradie-plugin-livereload": "^0.1.2"
   },
   "scripts": {
     "build": "tradie build",
     "test": "tradie test",
-    "start": "nodemon --exec babel-node -- src/server.js"
+    "start": "nodemon ./dist/server.js --watch ./dist --ignore ./dist/client.js"
   }
 }
